@@ -1,0 +1,33 @@
+.directory {
+  display: grid;
+  padding: 0 5em;
+  /* height: 100vh; */
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: screen;
+}
+
+.item a {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  background: rgba(255,255,255,.9);
+  padding: 10px 15px;
+  border: 1px solid black;
+}
