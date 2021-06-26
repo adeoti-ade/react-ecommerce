@@ -11,14 +11,12 @@ const Directory = (props) => {
         backgroundImage: `url(${Women})`
         }
   return (
-    <div className="directory">
-        <div className="wrap">
-            <div className="item" style={menStyle}>
-                <a href="">Show Men</a>
-            </div>
-            <div className="item" style={womenStyle}>
-                <a href="">Show Women</a>
-            </div>
+    <div className="wrap">
+        <div className="item" style={menStyle}>
+            <a href="">Show Men</a>
+        </div>
+        <div className="item" style={womenStyle}>
+            <a href="">Show Women</a>
         </div>
     </div>
   );

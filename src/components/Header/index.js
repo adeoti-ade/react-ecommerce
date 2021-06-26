@@ -1,17 +1,24 @@
 import React from "react";
-import Logo from './../../assets/default.svg'
-import './styles.css'
+import {Link} from 'react-router-dom';
+import Logo from './../../assets/default.svg';
+import './styles.css';
 
 
 const Header = props => {
 
     return (
-        <header className="header">
+        <div className="header">
             <div>
-                <img src={Logo} alt="" />
+                <Link to="/"><img src={Logo} alt="" /></Link>
             </div>
-
-        </header>
+            <div className="links">
+                <ul>
+                    <li>
+                        <Link to="/registration">Register</Link>
+                    </li>
+                </ul>
+            </div>
+        </div>
     )
 }
 
