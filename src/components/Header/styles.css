@@ -28,5 +28,25 @@ ul li a {
     color: #000;
 }
 
+.links {
+    display: flex;
+}
+
+.links li {
+    margin: 0 1.5rem;
+}
+
+.links li:last-child {
+    margin-right: 0;
+}
+
+li span {
+    font-size: 0.8em;
+    text-transform: uppercase;  
+    line-height: 1em;
+    color: #000;
+    cursor: pointer;
+}
+
 
 
